@@ -1,0 +1,10 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Test Site",
+  "home_page_url": "http://www.example.com",
+  "feed_url": "http://www.example.com/feed.json",
+  "description": "",
+  "favicon": "http://www.example.com/assets/img/favicon.ico",
+
+  "items": []
+}

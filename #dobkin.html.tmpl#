@@ -1,0 +1,55 @@
+{% set menu_highlight = "home" %}
+{% extends "default.html.tmpl" %}
+
+{% block header-bottom %}
+    <div class="grid-x align-center">
+        <div class="cell shrink">
+            <div class="h1" style="font-family:'Dobkin Plain';font-size: 4rem;margin-top:1rem;margin-bottom: 4rem;text-shadow: 1px 1px rgba(0,0,0,0.75);color: white;">Blessed are the peacemakers</div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block main %}
+<div class="grid-x align-center"><div class="cell large-10 primary-text">
+    <div class="grid-x grid-margin-x">
+        <!--div class="cell large-4">
+            <img src="{% asset_path "img/love.jpg" %}" alt="Street art with the word Love" />
+        </div-->
+        <div class="cell auto">
+            <h2>Our Vision</h2>
+            <p class="lead">A neighborhood church gathered to cultivate and embody God’s peace through sacramental worship and faithful action.</p>
+        </div>
+    </div>
+
+    <div class="grid-x align-center">
+        <div class="cell small-11 video-wrapper">
+            <div class="responsive-embed widescreen" style="margin-bottom:0;">
+                <iframe id="ytplayer" src="https://www.youtube.com/embed/GONrlhgmkcQ?playsinline=1&rel=0&modestbranding=1&iv_load_policy=3" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div style="padding: 2rem 1rem;"></div>
+    <div class="grid-x grid-margin-x">
+        <div class="cell medium-6">
+            <h2>Connect With Us</h2>
+            <p>We would love to have you join in the work of Christ Our Peace through prayer, giving and/or joining our team.</p>
+            <p>You can simply use the Digital Contact Card to connect with our monthly newsletter or to receive more information on joining us.</p>
+        </div>
+        <div class="cell medium-6">
+            <div class="signup">
+                <div class="breeze_form_embed" data-subdomain="friendsofthesavior" data-address="7016ff" data-width="100%" data-border_width="0" data-border_color="000000" data-background_color="ffffff" data-button_color="1779ba"></div><script src="https://app.breezechms.com/js/form_embed.js"></script>
+            </div>
+        </div>
+    </div>
+
+    <div style="padding: 2rem 1rem;"></div>
+    <h2>Giving</h2>
+    <p>We also invite you to become a financial partner in this work. We are currently raising funds towards hiring another local staff member and renting worship space. We are grateful for your generous support.<p>
+
+    <!--img src="{% asset_path "img/mural1.jpg" %}" />
+    <div style="background-image: url({% asset_path "img/mural2@2x.jpg" %})">
+        <h2>Our Mission</h2>
+    </div-->
+</div></div>
+{% endblock %}
